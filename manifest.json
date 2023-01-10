@@ -1,0 +1,17 @@
+{
+	
+	"name": "To do list",
+	"description": "To do list extension for tracking your tasks.",
+	"version": "0.0.1",
+	"icons": {
+		"16": "assets/icons/icon-26.png",
+		"32": "assets/icons/icon-26.png",
+		"48": "assets/icons/icon-52.png",
+		"128": "assets/icons/icon-52.png"
+	},
+	"browser_action": {
+		"default_title": "To do list",
+		"default_popup": "popout.html"
+    },
+	"manifest_version": 2
+}
