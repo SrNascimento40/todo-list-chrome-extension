@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>To do list</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./assets/style/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div>
-            <h1>My tasks</h1>
+  <head>
+    <title>To do list</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/style/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1>My tasks</h1>
 
-        <ul>
-            <li>Read a book <div class="emoji-div"><span>✔️</span><span>🗑️</span></div></li>
-            <li>Study dev <div class="emoji-div"><span>✔️</span><span>🗑️</span></div></li>
-            <li>Boxing training <div class="emoji-div"><span>✔️</span><span>🗑️</span></div></li>
-        </ul>
-        </div>
-    </body>
+      <button id="btnCreator" role="button">Create Task</button>
+      <div id="newItem">
+        <input type="text" placeholder="digite sua nova task" />
+        <button id="btnAddTask" role="button">Save</button>
+        <button id="btCancelTask" role="button">Cancel</button>
+      </div>
+      <ul class="todo-items"></ul>
+    </main>
+    <script src="./assets/javascript/index.js"></script>
+  </body>
 </html>
